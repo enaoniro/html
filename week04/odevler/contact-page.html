@@ -7,7 +7,7 @@
     <title>contact-page</title>
 </head>
 <style>
-    #cerceve1 { 
+    .cerceve1 { 
 
         width: 1500px;
         height: 200px;
@@ -20,14 +20,14 @@
     #cerceve2  {
 
         width: 1500px;
-        height: 1200px;
+        height: 800px;
         margin: auto;
         background-color: whitesmoke;
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
-    #paragraf  {
+    .paragraf  {
 
         width: 1000px;
         height: 100px;
@@ -46,9 +46,51 @@
         margin-bottom: 5px;
 
 
+    }
+    #fieldset2  {
+
+        width: 1000px;
+        height: 200px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
 
 
     }
+
+    #cerceveson  {
+
+        width: 1500px;
+        height: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin: auto;
+        background-color: whitesmoke;
+    }
+
+    #cerceve3  {
+
+        width: 1000px;
+        height: auto;
+        margin-top: 5 px;
+        margin: auto;
+        margin-bottom: 5px;
+        
+
+    }
+
+    #footer  {
+        width: 1500px;
+        height: auto;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: whitesmoke;
+    }
+
+
+
+
 
     
 </style>
@@ -60,14 +102,16 @@
 
                 <img src="./logo.jpeg" width="150px " height="75px" alt="site logosu">
                 <nav style="text-align: right;">
-                    <a href="./home">Home</a>
+                    <a href="https://Hicoders.ch">Home</a>
                     <a href=".contact">Contact</a>
                 </nav>
               
             </header>
 
-            <section id="cerceve1">
-                <div id="paragraf">
+            <section>
+
+            <div class="cerceve1">
+                <div class="paragraf">
             
                 <p>
                     <h1>
@@ -78,6 +122,7 @@
 
                 </div>
 
+            </div>
             </section>
 
             <section id="cerceve2">
@@ -129,25 +174,106 @@
                     
                 </form>
                     </fieldset>
-
-
-
-
-
-
                 </div>
 
+            </section>
+            <section>
 
+                <div class="cerceve1">
+
+                    <div id="fieldset2">
+
+                        <fieldset>
+
+                        
+                        <legend>Family Members</legend>
+                        <form>
+                        <label>Are you married?</label>
+                        <br>
+                        <input type="radio">Yes
+                        <br>
+                        <input type="radio">No
+                        <br>
+                        <label>If you are married, how many children do you have?</label>
+                        <br>
+                        <input type="number" placeholder="Enter the number of children">
+                        <br>
+                        </form>
+
+                        </fieldset>
+
+
+                    </div>
+
+                    </div>
+
+            </section>
+
+            <section id="cerceveson" >
+
+                <fieldset id="cerceve3"  >
+                    <legend>Confirmation and Application</legend>
+                    <br>
+                    <form>
+                        <label>Which ones are familiar to you? </label>
+                        <br>
+                        <input type="checkbox">HTML
+                        <br>
+                        <input type="checkbox">CSS
+                        <br>
+                        <input type="checkbox">Bootstrap
+                        <br>
+                        <input type="checkbox">Javascript
+                        <br>
+                        <input type="checkbox">NodeJS
+                        <br>
+                        <input type="checkbox">ReactJS
+                        <br>
+                        <label>Add your CV</label>
+                        <br>
+                        <input type="file" placeholder="Dosya sec">
+                        <br>
+                        <input type="checkbox">Please confirm by tracking the box after reading the <a href="">privacy terms and conditions!</a>
+                         <br>
+                         <input type="submit">
+
+                    </form>
+
+                </fieldset>
 
             </section>
             
         
+ </main>
 
+<!--WEB sayfasiyla ayni olacak-->
+    
+    <footer id="footer">
+        <table id="table2" style="margin: auto;">
+          <th>Our Course Phase</th>
+          <th>Contact</th>
+            
+            <tr>
+                <td>
+                    <ul>
+                      <li>Web Programing </li>
+                      <li>Web Fundamentals</li>
+                      <li>Fullstack Web Progrsming</li>
+                      <li>Capstone Project</li>
+                    </ul>
 
+                </td>
 
-    </main>
-
-    <footer>
+                <td>
+                  <ul>
+                    <li><a href="info@hicoders.ch">info@hicoders.ch</a></li>
+                    <li>+41009001010</li>
+                    <li>Schaffhauserstrasse 470,</li>
+                    <li>8052 Zurich</li>
+                  </ul>
+                </td>
+            </tr>
+        </table>
 
 
         
